@@ -3,8 +3,8 @@ import { connect } from "cloudflare:sockets";
 // import { Buffer } from "node:buffer";
 
 // Variables
-const rootDomain = "foolvpn.me"; // Ganti dengan domain utama kalian
-const serviceName = "nautica"; // Ganti dengan nama workers kalian
+const rootDomain = "lutfiterminal.biz.id"; // Ganti dengan domain utama kalian
+const serviceName = "premium"; // Ganti dengan nama workers kalian
 const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = ""; // Ganti dengan email yang kalian gunakan
 const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
@@ -1610,7 +1610,7 @@ class Document {
       proxyGroupElement += `      <div id="container-region-check-${i}">`;
       proxyGroupElement += `        <input id="config-sample-${i}" class="hidden" type="text" value="${proxyData.list[0]}">`;
       proxyGroupElement += `      </div>`;
-      proxyG_proxy_info += `    </div>`;
+      proxyGroupElement += `    </div>`;
       proxyGroupElement += `  </div>`;
       proxyGroupElement += `  <div class="flex flex-col gap-2 mt-4 text-sm">`;
       for (let x = 0; x < proxyData.list.length; x++) {
